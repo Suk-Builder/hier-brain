@@ -1,0 +1,15 @@
+# 训练产物
+adapters/
+__pycache__/
+*.log
+
+# 运行时生成
+hippocampus.db
+
+# 本地模型缓存（不入库）
+*.safetensors
+*.gguf
+
+# 系统
+.DS_Store
+Thumbs.db
